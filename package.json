@@ -1,0 +1,21 @@
+{
+  "name": "acuity-hardspoon",
+  "version": "1.0.0",
+  "scripts": {
+    "keys": "ts-node src/keys.ts",
+    "balances": "ts-node src/balances.ts",
+    "claims": "ts-node src/claims.ts"
+  },
+  "dependencies": {
+    "@polkadot/api": "^6.11.1",
+    "@polkadot/keyring": "^8.1.2",
+    "@polkadot/util": "^8.1.2",
+    "@polkadot/util-crypto": "^8.1.2",
+    "buffer-reverse": "^1.0.1",
+    "json-bigint": "^1.0.0",
+    "xxhash-addon": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  }
+}
