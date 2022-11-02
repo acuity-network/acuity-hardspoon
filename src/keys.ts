@@ -14,3 +14,5 @@ for (let node of keys) {
   console.log("array_bytes::hex2array_unchecked(\"" + node[3].publicKey.slice(2) + "\").unchecked_into(),");
   console.log("),");
 }
+
+console.log(Buffer.from(decodeAddress("5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY")).toString('hex'));
