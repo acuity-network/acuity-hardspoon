@@ -7,10 +7,10 @@
     "claims": "ts-node src/claims.ts"
   },
   "dependencies": {
-    "@polkadot/api": "^6.11.1",
-    "@polkadot/keyring": "^8.1.2",
-    "@polkadot/util": "^8.1.2",
-    "@polkadot/util-crypto": "^8.1.2",
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/keyring": "^12.6.2",
+    "@polkadot/util": "^12.6.2",
+    "@polkadot/util-crypto": "^12.6.2",
     "buffer-reverse": "^1.0.1",
     "json-bigint": "^1.0.0",
     "xxhash-addon": "^1.4.0"
